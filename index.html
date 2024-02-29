@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" onsubmit="event.preventDefault()">
+      <label for="">Nome</label> <br />
+      <input required type="text" placeholder="João da Silva Sauro" id="nome" />
+      <br />
+      <br />
+      <label for="">Idade</label> <br />
+      <input type="number" name="idade" placeholder="idade" id="idade" />
+      <br />
+      <br />
+      <label for="">Cargo</label> <br />
+      <select name="" id="cargo">
+        <option value="funcionario">Funcionário</option>
+        <option value="gerente">Gerente</option>
+        <option value="desenvolvedor">Desenvolvedor</option>
+      </select>
+      <br />
+      <br />
+      <label for="">Departamento</label> <br />
+      <input type="text" placeholder="Departamento" id="departamento" />
+      <br />
+      <br />
+      <label for="">Linguagem</label> <br />
+      <input
+        type="text"
+        placeholder="Linguagem de programação"
+        id="linguagem"
+      />
+      <br />
+      <br />
+
+      <input type="submit" onclick="teste()" />
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
