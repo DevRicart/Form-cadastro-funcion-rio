@@ -51,10 +51,6 @@ const cargo = document.getElementById('cargo')
 const departamento = document.getElementById('departamento')
 const linguagem = document.getElementById('linguagem')
 
-function handleSubmit(event) {
-  event.preventDefault()
-}
-
 function trabalhador() {
   new funcionario(nome.value, idade.value, cargo.value).seApresentar()
   new funcionario(nome.value, idade.value, cargo.value).trabalhar()
